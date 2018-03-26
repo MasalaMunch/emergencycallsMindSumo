@@ -384,6 +384,7 @@ calls = listCalls(DATA_PATH)
 zipcodes = buildZipcodes(calls)
 unitTypes = buildUnitTypes(calls)
 app = dash.Dash()
+server = app.server
 app.layout = INITIAL_LAYOUT
 app.css.append_css({'external_url':CSS_URL})
 app.title = WEBAPP_TITLE
