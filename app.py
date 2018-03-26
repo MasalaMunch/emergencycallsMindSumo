@@ -70,6 +70,7 @@ INITIAL_LAYOUT = html.Div(children=[
 Visualizations of emergency call data from the
 San Francisco Fire Department, built in 14 days for a
 [MindSumo challenge](https://www.mindsumo.com/contests/sfpd-dispatch).
+See the source code [here](https://github.com/MasalaMunch/emergencycallsMindSumo).
 
 		'''),
 
