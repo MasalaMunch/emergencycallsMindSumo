@@ -1,7 +1,3 @@
-#TODO: remove this and print statements
-import sys
-# print('this', file=sys.stderr)
-
 from backend import Call, CallSet
 import datetime
 from operator import attrgetter, methodcaller
@@ -597,8 +593,7 @@ def updateUnitProbabilities(address:str, time:str):
 		zipcode, address = parseAddressInput(address)
 		time = parseTimeInput(time)
 		probabilities = zipcodes[zipcode].getUnitTypeProbabilities(time)
-	except Exception as e:
-		print(str(e), file=sys.stderr)
+	except:
 		graphName = "Error: Couldn't parse input."
 		probabilities = []
 	else:
@@ -663,5 +658,4 @@ def updateFrequencyTimeGraph(perCapita:list):
 
 if __name__ == '__main__':
 
-	#TODO: disable debugging for final deployment
 	app.run_server(debug=True)
