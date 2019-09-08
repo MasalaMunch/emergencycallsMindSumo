@@ -1,1 +1,1 @@
-[https://emergencycalls-mindsumo.herokuapp.com/](https://emergencycalls-mindsumo.herokuapp.com/)
+ My submission to a [MindSumo Challenge](https://www.mindsumo.com/contests/sfpd-dispatch)
